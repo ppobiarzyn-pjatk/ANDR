@@ -14,8 +14,12 @@ divisibleBy(10,3)
 # Drugą połowę przejechał ze średnią prędkością 90 km/h.
 # Jaka była średnia prędkość pociągu.
 
+v1 = 120
+v2 = 90
 
-cat("Średnia prędkość pociagu to", mean(c(120, 90)))
+v_mean = (2 * v1 * v2) / (v1 + v2)
+
+cat("Średnia prędkość pociagu to", v_mean)
 
 #3. Utwórz funkcję obliczającą współczynnik korelacji r Pearsona dla 2 wektorów o tej samej długości.
 # Wczytaj dane plik dane.csv i oblicz współczynnik dla wagi i wzrostu. W komentarzu napisz co oznacza wynik.
